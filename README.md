@@ -1,8 +1,8 @@
 # cicd-java
 
-Pipeline using GitHub actions and Dochub for a Java program.
+Pipeline using GitHub actions and Docker for a Java program.
 
-## Docker Deployment Guide
+## Docker Guide
 
 
 ### Prerequisites
