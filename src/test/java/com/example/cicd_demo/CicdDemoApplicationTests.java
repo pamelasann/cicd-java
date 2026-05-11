@@ -18,6 +18,6 @@ class CicdDemoApplicationTests {
     ResponseEntity<String> response = restTemplate.getForEntity("/", String.class);
 
     assertThat(response.getStatusCode().is2xxSuccessful()).isTrue();
-    assertThat(response.getBody()).isEqualTo("Hello World!!");
+    assertThat(response.getBody()).isEqualTo("Hello World! From Java");
   }
 }
